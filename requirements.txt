@@ -1,0 +1,10 @@
+python-dotenv
+ipykernel
+langchain
+langchain-community
+langchain_chroma
+langchain-google-genai
+pymupdf
+pypdf
+streamlit
+protobuf==3.20.*
