@@ -2,15 +2,27 @@
 
 This is a simple chat application that lets you upload PDF documents and ask questions about their content. It uses a RAG (Retrieval Augmented Generation) approach to answer your questions and remembers your chat history.
 
+---
+
+## Demo Video
+
+Here's a quick demo to see the application in action:
+
+[Watch the Demo Here](https://drive.google.com/file/d/1UEoQMWqaJSPA7ZewCha5fqT8hVxHhng1/view?usp=sharing)
+
+---
+
 ## Features
 
 * **PDF Upload:** Upload one or more PDF files.
 * **Question Answering:** Ask questions based on the content of the uploaded PDFs.
 * **Chat History:** The application remembers your previous questions and answers in the current session.
 
+---
+
 ## How to Use
 
-1.  **Get your Gemini API Key:** You will need a Gemini API key to run this application.
+1.  **Get your Gemini API Key:** You'll need a Gemini API key to run this application.
 2.  **Install Dependencies:**
     Make sure you have Python installed. Then, install the necessary libraries by running:
     ```bash
@@ -24,6 +36,8 @@ This is a simple chat application that lets you upload PDF documents and ask que
 4.  **Open in Browser:**
     Your web browser should automatically open the application. If not, open your browser and go to the local address provided in the terminal.
 
+---
+
 ## Application Interface
 
 * **Sidebar:** On the left, you'll find a sidebar where you can:
@@ -32,12 +46,16 @@ This is a simple chat application that lets you upload PDF documents and ask que
 * **Upload PDF Documents:** Use the file uploader to select and upload your PDF files.
 * **Chat with PDFs:** Once your PDFs are processed, you can type your questions in the chat box at the bottom of the page.
 
+---
+
 ## Project Structure
 
 * `main.py`: The main application file, handling the Streamlit interface, PDF loading, and chat logic.
 * `history_aware_retriever.py`: Contains the function to create a retriever that considers chat history for better context.
 * `Youtube_chain.py`: Defines the chain for answering questions based on retrieved documents and chat history.
 * `requirements.txt`: Lists all the Python libraries needed to run the application.
+
+---
 
 ## Credits
 
